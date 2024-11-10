@@ -16,7 +16,6 @@ const findTwoSum = function (nums: number[], target: number) {
   return null;
 };
 
-//@ts-ignore
 Deno.bench("Naive approach", () => {
   findTwoSum(numsArray, targetToFind);
 });
